@@ -1,0 +1,47 @@
+{
+  "belvedere": {
+    "title": "Belvedere",
+    "slug": "belvedere",
+    "url": "https://res.cloudinary.com/rivera-web-solutions/image/upload/v1549063476/DRiveraDesigns/Belvedere/front-min.jpg"
+  },
+  "downtownSonoma": {
+    "title": "Downtown Sonoma",
+    "slug": "downtown-sonoma",
+    "url": "https://res.cloudinary.com/rivera-web-solutions/image/upload/v1549063622/DRiveraDesigns/Downtown%20Sonoma/Menache_main-min.jpg"
+  },
+  "kentfield": {
+    "title": "Kentfield",
+    "slug": "kentfield",
+    "url": "https://res.cloudinary.com/rivera-web-solutions/image/upload/v1549063738/DRiveraDesigns/Kentfield/main-min.jpg"
+  },
+  "millValley": {
+    "title": "Mill Valley",
+    "slug": "mill-valley",
+    "url": "https://res.cloudinary.com/rivera-web-solutions/image/upload/v1549053311/DRiveraDesigns/Mill%20Valley/main-min.jpg"
+  },
+  "ross": {
+    "title": "Ross",
+    "slug": "ross",
+    "url": "https://res.cloudinary.com/rivera-web-solutions/image/upload/v1549064117/DRiveraDesigns/Ross/patio-min.jpg"
+  },
+  "seaCliff": {
+    "title": "Sea Cliff",
+    "slug": "sea-cliff",
+    "url": "https://res.cloudinary.com/rivera-web-solutions/image/upload/v1549064244/DRiveraDesigns/Sea%20Cliff/bedroom-min.jpg"
+  },
+  "sonomaHouse": {
+    "title": "Sonoma House",
+    "slug": "sonoma-house",
+    "url": "https://res.cloudinary.com/rivera-web-solutions/image/upload/v1549064337/DRiveraDesigns/Sonoma%20House/main-min_2.jpg"
+  },
+  "kitchen": {
+    "title": "Kitchens",
+    "slug": "kitchens",
+    "url": "https://res.cloudinary.com/rivera-web-solutions/image/upload/v1549385890/DRiveraDesigns/Kitchens/kitchen-min.jpg"
+  },
+  "bathrooms": {
+    "title": "Bathrooms",
+    "slug": "bathrooms",
+    "url": "https://res.cloudinary.com/rivera-web-solutions/image/upload/v1549063334/DRiveraDesigns/Bathrooms/bathroom1-min.jpg"
+  }
+}
