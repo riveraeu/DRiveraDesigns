@@ -12,7 +12,7 @@
         <div class="w-full text-center py-10">
           <h1 class="heading text-blue">Project Overview</h1>
         </div>
-        <div class="flex flex-row flex-wrap lg:flex-no-wrap py-8 md:px-8">
+        <div class="process-flex-row lg:flex-no-wrap md:px-8">
           <div class="lg:w-full">
             <h2 class="sub-heading py-2 underline">{{ content.planning.title }}</h2>
             <p class="body-text lg:pr-6 pb-4">{{ content.planning.text }}</p>
@@ -20,33 +20,35 @@
           <VueResponsiveImage
             :image-url="content.planning.url"
             :image-ratio="1916/1520"
-            :width-on-screen="50"
+            :width-on-screen="33"
             :width-on-screen-tablet="75"
-            :width-on-screen-mobile="100"
+            :width-on-screen-smartphone="100"
             :image-class="'shadow-lg'" />
         </div>
-        <div class="flex flex-row flex-wrap lg:flex-no-wrap py-8 md:px-8">
+        <div class="process-flex-row lg:flex-no-wrap md:px-8">
           <VueResponsiveImage
             :image-url="content.construction.url"
-            :width-on-screen="10"
+            :image-ratio="3456/4608"
+            :width-on-screen="33"
             :width-on-screen-tablet="75"
-            :width-on-screen-mobile="100"
+            :width-on-screen-smartphone="100"
             :image-class="'shadow-lg'" />
           <div class="lg:w-full lg:py-16 lg:pl-6">
             <h2 class="sub-heading py-2 underline text-grey-darker">{{ content.construction.title }}</h2>
             <p class="body-text">{{ content.construction.text }}</p>
           </div>
         </div>
-        <div class="flex flex-row flex-wrap lg:flex-no-wrap py-8 md:px-8">
+        <div class="process-flex-row lg:flex-no-wrap md:px-8">
           <div class="lg:w-full lg:py-16 lg:pr-6">
             <h2 class="sub-heading py-2 underline text-grey-darker">{{ content.completion.title }}</h2>
             <p class="body-text pb-4">{{ content.completion.text }}</p>
           </div>
           <VueResponsiveImage
             :image-url="content.completion.url"
-            :width-on-screen="10"
+            :image-ratio="4608/3456"
+            :width-on-screen="50"
             :width-on-screen-tablet="75"
-            :width-on-screen-mobile="100"
+            :width-on-screen-smartphone="100"
             :image-class="'shadow-lg'" />
         </div>
       </div>
@@ -80,8 +82,16 @@ export default {
 </script>
 
 <style>
+  @tailwind preflight;
+  .process-flex-row {
+    @apply flex flex-row flex-wrap py-8
+  }
   #hero-image {
     height: 90vh;
     background-image: url("https://res.cloudinary.com/rivera-web-solutions/image/upload/b_black,o_60/v1549053311/DRiveraDesigns/Mill%20Valley/main-min.jpg");
   }
+  picture {
+    @apply mx-auto
+  }
+  @tailwind utilities;
 </style>

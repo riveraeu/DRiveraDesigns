@@ -2,7 +2,7 @@
   <div class="w-4/5 mx-auto py-16">
     <div class="py-6">
       <p class="heading text-blue text-center py-6">{{ project.title }}</p>
-      <div class="body-text text-grey-darker text-center mx-auto w-4/5"> {{ project.text }}</div>
+      <div class="body-text text-grey-darker text-center mx-auto lg:w-4/5"> {{ project.text }}</div>
     </div>
     <div class="image-cards">
       <div
@@ -11,9 +11,10 @@
         class="image-card">
         <VueResponsiveImage
           :image-url="image.src"
-          :width-on-screen="50"
-          :width-on-screen-tablet="75"
-          :width-on-screen-smartphone="100"
+          :width-on-screen="30"
+          :width-on-screen-tablet="50"
+          :width-on-screen-smartphone="75"
+          :image-class="'shadow-lg'"
           @click.native="openGallery(index)"/>
       </div>
       <LightBox
@@ -54,37 +55,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.image-cards {
-  column-count: 3;
-  column-gap: 1em;
-}
-.image-card {
-  margin: 0 0 1em;
-  width: 100%;
-  transition: all 100ms ease-in-out;
-  display: inline-block;
-  cursor: pointer;
-}
-.image-card >>> img {
-  width: 100%;
-}
-@media (max-width: 960px) {
-  .image-cards {
-    column-count: 2;
-  }
-}
-@media (max-width: 600px) {
-  .image-cards {
-    column-count: 1;
-  }
-  .image-cards {
-    margin: 0 0 0;
-  }
-}
-.card >>> img {
-  display: block;
-  width: 100%;
-}
-</style>
