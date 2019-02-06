@@ -46,6 +46,26 @@ module.exports = {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
+  generate: {
+    subFolders: false,
+    routes: function () {
+      return [
+        '/',
+        'about',
+        'contact',
+        '/projects/',
+        '/projects/belvedere',
+        '/projects/downtown-sonoma',
+        '/projects/kentfield',
+        '/projects/mill-valley',
+        '/projects/ross',
+        '/projects/sea-cliff',
+        '/projects/sonoma-house',
+        '/projects/kitchens',
+        '/projects/bathrooms'
+      ]
+    }
+  },
 
   /*
   ** Build configuration
