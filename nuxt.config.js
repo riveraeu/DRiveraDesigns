@@ -45,6 +45,7 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+    baseURL: process.env.NODE_ENV == 'production' ? 'https://driveradesigns.com' : 'http://localhost:3000'
   },
   generate: {
     subFolders: false,

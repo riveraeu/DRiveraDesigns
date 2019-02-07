@@ -86,12 +86,27 @@ export default {
   .process-flex-row {
     @apply flex flex-row flex-wrap py-8
   }
-  #hero-image {
-    height: 90vh;
-    background-image: url("https://res.cloudinary.com/rivera-web-solutions/image/upload/b_black,o_60/v1549053311/DRiveraDesigns/Mill%20Valley/main-min.jpg");
-  }
   picture {
     @apply mx-auto
+  }
+  #hero-image {
+    height: 90vh;
+    background-image: url("https://res.cloudinary.com/rivera-web-solutions/image/upload/b_black,o_60,c_scale,w_663/v1549053311/DRiveraDesigns/Mill%20Valley/main-min.jpg");
+  }
+  @screen md {
+    #hero-image {
+      background-image: url("https://res.cloudinary.com/rivera-web-solutions/image/upload/b_black,o_60,c_scale,w_873/v1549053311/DRiveraDesigns/Mill%20Valley/main-min.jpg");
+    }
+  }
+  @screen lg {
+    #hero-image {
+      background-image: url("https://res.cloudinary.com/rivera-web-solutions/image/upload/b_black,o_60,c_scale,w_1139/v1549053311/DRiveraDesigns/Mill%20Valley/main-min.jpg");
+    }
+  }
+  @screen xl {
+    #hero-image {
+      background-image: url("https://res.cloudinary.com/rivera-web-solutions/image/upload/b_black,o_60,c_scale,w_2194/v1549053311/DRiveraDesigns/Mill%20Valley/main-min.jpg");
+    }
   }
   @tailwind utilities;
 </style>
