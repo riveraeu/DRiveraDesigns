@@ -8,7 +8,7 @@
     <section class="container mx-auto">
       <div class="w-full lg:w-2/3 py-8 mx-auto">
         <p class="text-xl font-medium text-grey-darker leading-normal px-8">
-          Get in contact with David today, simply fill out the form below and David will response promptly.
+          Get in contact with David today, simply fill out the form below and David will responsed promptly.
           Please give David some details about your project. New house? Kitchen remodel? Don't wait, get in touch with David today and get started on your dream project.
         </p>
       </div>
